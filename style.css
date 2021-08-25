@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: hsl(204, 43%, 93%);
+}
+.order {
+  min-height: 100vh;
+  padding: 0 32px;
+  height: 722px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  max-width: 450px;
+  font-family: "Karla", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* section-1 */
+.section-1 {
+  height: 267px;
+  background-color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 30px 22px 0;
+  line-height: 1.5;
+}
+.bg-white.heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  margin: 0;
+}
+.bg-white.content-1 {
+  color: hsl(71, 73%, 54%);
+  margin: 25px 0 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.bg-white.content-2 {
+  color: hsl(218, 22%, 67%);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 23px 0 0;
+}
+/* price-data */
+.section-2 {
+  width: 100%;
+}
+.price-data {
+  background-color: hsl(179, 62%, 43%);
+  height: 226px;
+  color: hsl(204, 43%, 93%);
+  padding: 25px 23px 0;
+}
+.price-header {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+.price {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 18px 0 0;
+}
+span {
+  font-size: 11px;
+  color: hsl(204deg 43% 93% / 65%);
+  font-weight: 400;
+}
+.price-content {
+  font-weight: 400;
+  margin: 14px 0 0;
+}
+.price-btn {
+  font-family: "Karla", sans-serif;
+  color: #ffffff;
+  margin-top: 23px;
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* information */
+.info {
+  background-color: #4bbdbd;
+  height: 226px;
+  padding: 26px 70px 24px 23px;
+  color: hsl(204, 43%, 93%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.info-header {
+  font-size: 20px;
+  margin: 0;
+}
+.info-content {
+  margin: 20px 0 0;
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: 400;
+  color: hsl(204deg 43% 93% / 92%);
+}
